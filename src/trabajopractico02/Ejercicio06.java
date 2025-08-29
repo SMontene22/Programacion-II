@@ -20,7 +20,7 @@ public class Ejercicio06 {
         int cero = 0;
                 
         for (int i = 1; i <= 10; i++) {
-            System.out.print("Ingrese el número entero " + i + ":");
+            System.out.print("Ingrese el número " + i + ":");
             int num = input.nextInt();
             if (num == 0){
                 cero++;
@@ -28,9 +28,10 @@ public class Ejercicio06 {
                 neg++;
             } else pos++;
         }
-        System.out.println("La suma total de números positivos es: " + pos);
-        System.out.println("La suma total de números negativos es: " + neg);
-        System.out.println("La suma total de números ceros es: " + cero);
+        System.out.println("Resultados");
+        System.out.println("Positivos: " + pos);
+        System.out.println("Negativos: " + neg);
+        System.out.println("Ceros: " + cero);
 
     }
 }
