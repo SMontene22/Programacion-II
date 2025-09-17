@@ -6,10 +6,7 @@
 package trabajopractico04_ad;
 
 /**
- *Métodos sobrecargados aplicarDescuento: 
-○ Uno que reciba un porcentaje de descuento. 
-○ Otro que reciba un porcentaje y un precio mínimo, para no bajar de ese 
-valor. 
+ *
  * @author Sergio Montenegro
  */
 public class Producto {

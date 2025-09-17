@@ -5,12 +5,7 @@
 
 package trabajopractico04_ad;
 
-/**int numero: Número de cuenta autogenerado. 
-● String titular: Titular de la cuenta. 
-● double saldo: Saldo disponible. 
-● static int ultimoNumero: Base para autoincrementar la numeración. (por 
-defecto 100) 
-● static int totalCuentas: Contador global de cuentas creadas. (por defecto 0)
+/**
  *
  * @author Sergio Montenegro
  */
